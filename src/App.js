@@ -1,17 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Exemplo02 from './jsx_examples/exemplo-02-expressoes';
-import lista_01 from './jsx_examples/listas/lista_01';
-import Exercicio_01 from './jsx_examples/listas/lista_01';
-import Lista_01 from './jsx_examples/listas/lista_01';
-import Lista_02 from './jsx_examples/listas/lista_02'
-import Lista_03 from './jsx_examples/listas/lista_03';
-import ViewScaffold from './jsx_examples/exemplo-05-flexbox';
+import ExercicioView08 from './lista_view_flex/ex8';
+import ExercicioProva01 from './prova/ex01';
+import ExercicioProva02 from './prova/ex02';
+import CartaoPerfil from './props/exem';
+import CardProduto from './props/ex1';
+import CartaoUsuario from './props/ex2';
+import Saudacao from './props/ex3';
+import PerfilAluno from './props/ex4';
+import Botao from './props/ds';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ViewScaffold/>
+      <Botao titulo={'entrar'}/>
+      <Botao titulo={'sair'}/>
+      <Botao titulo={'cadastrar'}/>
     </View>
   );
 }
@@ -19,8 +23,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#f5f5f5', 
   },
 });
