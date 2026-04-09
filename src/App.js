@@ -9,13 +9,16 @@ import CartaoUsuario from './props/ex2';
 import Saudacao from './props/ex3';
 import PerfilAluno from './props/ex4';
 import Botao from './props/ds';
+import ExercicioView05 from './lista_view_flex/ex5';
+import ExercicioView06 from './lista_view_flex/ex6';
+import ExercicioView07 from './lista_view_flex/ex7';
+import ExercicioView09 from './lista_view_flex/ex9';
+import ExercicioView10 from './lista_view_flex/ex10';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Botao titulo={'entrar'}/>
-      <Botao titulo={'sair'}/>
-      <Botao titulo={'cadastrar'}/>
+      <ExercicioView10/>
     </View>
   );
 }
